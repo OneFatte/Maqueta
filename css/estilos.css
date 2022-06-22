@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.retenedor{
+    display: flex;
+    justify-content: center;
+}
+.caja1{
+    background-color: rgb(170, 104, 231);
+    height: 5rem;
+}
+.caja2{
+    background-color: rgb(83, 244, 255);
+    height: 3rem;
+}
+.caja3{
+    background-color: rgb(38, 53, 255);
+    height: 20rem;
+}
+.caja4{
+    background-color: lightblue;
+    height: 5rem;
+}
+.caja5{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    height: 30rem;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.caja6{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 165, 47);
+    height: 30rem;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.caja7{
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    height: 30rem;
+    margin-right: 10px;
+}
+
+.caja8{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 47, 255);
+    height: 30rem;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.caja9{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(139, 20, 250);
+    height: 30rem;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.caja10{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 234, 255);
+    height: 30rem;
+    margin-right: 10px;
+}
+
+
+.raya{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+
+}
+
+
+.alturablanco{
+    background-color: white;
+    height: 5rem;
+}
+
+.division{
+    padding-top: 10px;
+}
+/* consultas de medios sammsung */
+@media (max-width: 576px) {
+    .caja5, .caja6, .caja7, .caja8, .caja9, .caja10 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .division{
+        padding-top: 0;
+    }
+}
